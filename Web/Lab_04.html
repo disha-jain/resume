@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+		<link type="text/css" rel="stylesheet" href="Lab_04_Stylesheet.css"/>
+		<title>Lab 04</title>
+	</head>
+	<body id="body" onclick="clicked()">
+		<div class = "foo" style="margin:0px"> 
+			<div id="one" style="width:100px; height:100px; float:left"><p>Div 1</p><p>Div 2</p></div>
+			<div id="two" style="width:100px; height:100px; float:left"><p>Div 1</p><p>Div 2</p></div>
+
+			<div id="three" style="width:100px; height:100px; float:right"><p>Div 1</p><p>Div 2</p></div>
+			<div id="four" style="width:100px; height:100px; float:right"><p>Div 1</p><p>Div 2</p></div>
+
+			<div id="five" style="width:100px; height:100px; clear:both; float:left"><p>Div 1</p></div>
+			<div id="six" style="width:100px; height:100px; float:left"><p>Div 1</p></div>
+
+			<div id="seven" style="width:100px; height:100px; float:right;"><p>Div 1</p></div>
+			<div id="eight" style="width:100px; height:100px; float:right;"><p>Div 1</p></div>
+
+			<div id="nine" style="width:300px; height:210px; clear:both; float:left">
+				<div id="inOne" style="width:100px; height:100px; float:right; margin-right:10px; margin-top:100px"><p>One</p></div>
+				<div id="inTwo" style="width:100px; height:100px; float:left; margin-left:10px; margin-top:100px"><p>One</p></div>
+			</div>
+			<div id="nine" style="width:300px; height:210px; float:right;">
+				<div id="inThree" style="width:100px; height:100px; float:right; margin-right:10px; margin-top:100px"><p>One</p></div>
+				<div id="inFour" style="width:100px; height:100px; float:left; margin-left:10px; margin-top:100px"><p>One</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" >
+		    var next;
+			function clicked(){
+				e = window.event;
+		        var x = e.target;
+		        findNext(x);
+		    }
+		    function findNext(current)
+		    {
+		    	if(current.firstElementChild != null)
+				{
+		    		next = current.firstElementChild;
+					changeColor();
+		    		console.log(current.firstElementChild);
+		    	}
+		    	else if(current.nextElementSibling != null)
+		    	{
+		    		next = current.nextElementSibling;
+					changeColor();
+		    		console.log(current.nextElementSibling);
+		    	}
+		    	else
+		    	{
+		    		next = current;
+		    		while(next.nextElementSibling == null && next.parentNode != null)
+		    		{
+		    			next = next.parentNode;
+		    			console.log(next);
+		    		}
+		    		if(next.parentNode.parentNode.parentNode.parentNode == null)
+		    		{
+		    			console.log("END");
+		    			changeColor();
+		    		}
+		    		else
+		    		{
+		    			next = next.nextElementSibling;
+		    			changeColor();
+		    		}
+		    	}
+		    }
+		    function changeColor()
+		    {
+		    	next.style.background = "#9900CC";
+ 				setTimeout(function() {
+	            	next.style.background = "#2980b9";
+				}, 1500);
+		    }
+		</script>
+	</body>
+</html>

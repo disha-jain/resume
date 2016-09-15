@@ -1,0 +1,24 @@
+body{
+	background-color: #2980b9;
+	font-family: Quicksand,serif;
+	padding: 0px;
+	color: #FFF;
+}
+button{
+	font-family: Quicksand,serif;
+	color: #FFF;
+	background: #1abc9c;
+    border-radius: 100px;
+    width: 150px;
+    height: 100px;
+    padding: 5px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	float: left;
+	outline: #1abc9c thick;
+	-webkit-appearance: none;
+}
+h4{
+	color: #FFF;
+	visibility: hidden;
+}

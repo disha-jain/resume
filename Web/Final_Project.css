@@ -1,0 +1,12 @@
+body{
+	font-family: "Verdana";
+	color:#000000;
+}
+
+input, select{
+	margin: 5px;
+	border: 2px solid #000000;
+	border-radius: 5px 5px;
+	font-size: 18px;
+}
+

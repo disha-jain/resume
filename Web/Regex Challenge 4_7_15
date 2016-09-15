@@ -1,0 +1,40 @@
+Regex Challenge 4_7_15
+1. Determine (A) and (B) for the longest word in which the same letter appears twice in the same word
+	a) '^\w*(?=(\w)\w*\1)\w{28,}$'
+	b) ethylenediaminetetraacetates
+2. Determine (A) and (B) for the shortest word in which the same letter appears twice in the same word
+	a) '^(?=(\w)\w*\1)\w{2}$'
+	b) aa & mm
+3. Determine (A) and (B) for the longest word in which the same letter appears twice in a row
+	a) '^\w*(?=(\w)\1)\w{22,}$'
+	b) immunoelectrophoretically
+4. Determine (A) and (B) for the shortest word in which the same letter appears twice in a row
+	a) '^(?=(\w)\1)\w{2}$'
+	b) aa & mm
+5. Determine (A) and (B) for the longest word in the dictionary
+	a) '^\w{28,}$'
+	b) ethylenediaminetetraacetates
+6. Determine (A) and (B) for the longest word in the dictionary without 'e'
+	a) '^[a-df-z]{22,}$'
+	b) constitutionalizations
+	   otorhinolaryngological
+	   otorhinolaryngologists
+7. Determine (A) and (B) for the longest word in the dictionary without 'e' and with 'a'
+	a) '^([a-df-z]*(?=a)[a-df-z]*)[a-df-z]{21,}$'
+	b) anthropomorphizations
+	   antiauthoritarianisms
+8. Determine (A) and (B) for the longest word with all 5 vowels
+	a) '^(?=.*a)(?=.*e)(?=.*i)(?=.*o)(?=.*u).*.{25,}$'
+	b) immunoelectrophoretically
+9. Determine (A) and (B) for all 8 letter words with the letter t in the third place
+	a) '^[a-z]{2}t[a-z]{5}'
+	b) 1092 results
+10. Determine (A) and (B) for the words the have both the most vowels and begin and end with the same letter
+	a) 
+	b) 
+11. Determine (A) and (B) for the words with the most repeating letters and also begin with a vowel
+	a) 
+	b) 
+12. Determine (A) and (B) for the words with the most repeating letters and also begin with a consonant
+	a) 
+	b) 

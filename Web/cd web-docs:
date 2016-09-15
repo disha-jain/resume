@@ -1,0 +1,8 @@
+cd web-docs/
+more enable1.txt
+ls -1
+dict=enable1.txt
+
+more $dict
+
+grep -cP 'dog' $dict

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Final Project</title>
+		<link rel="stylesheet" type="text/css" href="Final_Project.css">
+		<script type="text/javascript">
+			function clicked(){
+				var e = window.event;
+				var x = e.target;
+				var chosen = x.value;
+				var div1 = document.getElementById('orderName');
+				var div2 = document.getElementById('orderDate');
+				if(chosen == "view"){
+					div1.visibility="visible";
+					div2.visibility="visible";
+					while (div1.children.length > 0)
+						div1.removeChild(div1.firstChild);	
+					while (div2.children.length > 0)
+						div2.removeChild(div2.firstChild);	
+					var orderName = document.createElement('input');
+					orderName.type="text";
+					orderName.name="nam";
+					div1.innerHTML="Order Name: <br>";
+					div1.appendChild(orderName);
+					var orderDate = document.createElement('input');
+					orderDate.type="text";
+					orderDate.name="day";
+					div2.innerHTML="Meal Date (mm/dd/yyyy): <br>";
+					div2.appendChild(orderDate);
+				}
+				else{
+					div1.visibility="hidden";
+					div2.visibility="hidden";
+					while (div1.children.length > 0)
+						div1.removeChild(div1.firstChild);
+					while (div2.children.length > 0)
+						div2.removeChild(div2.firstChild);					
+				}
+			}
+		</script>
+	</head>
+	<body background= "GoldenBG.gif">
+		<h1>Welcome to Takeout Tuesday!</h1>
+		<form action="Final_Project.php" method="post">
+			<select size="2" autofocus name="type" onchange="clicked()">
+				<option value="place" selected>Place Order</option>
+				<option value="view">View Order</option>
+			</select>
+			<br>
+			<h2>
+				<div id="orderName" visibility="hidden"></div>
+				<div id="orderDate" visibility="hidden"></div>
+				<input type="submit" value="Go!" style="background-color:#CC0000; color:#ffffff"></input>
+			</h2>
+		</form>
+	</body>
+</html>

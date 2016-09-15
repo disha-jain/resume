@@ -1,0 +1,72 @@
+body{
+	background-color: #2980b9;
+	font-family: Quicksand,serif;
+	padding: 0px;
+}
+html{
+	padding: 0px;
+}
+div{
+	position: absolute;
+}
+.petals{
+	background: #1abc9c;
+    border-radius: 150px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: table;
+    padding: 5px;
+}
+.petals:hover{
+	box-shadow: 0 0 30px #1abc9c;
+	background: #1abc9c;
+}
+
+.petalP{
+	text-align: center;
+	margin-top: calc(75px - 15px);
+	font-size: 25px;
+	cursor: pointer;
+	color: #FFF;
+}
+#text{
+	margin-left: 5px;
+}
+h1{
+	color:#FFF;
+	text-align: center;
+	margin-top: 15px;
+}
+h2{
+	font-size: 25px;
+}
+.displayP{
+	position: relative;
+	left: 10px;
+	color: #FFF;
+	font-size: 20px;
+}
+#display{
+	position: fixed;
+	overflow: scroll;
+	width: 600px;
+	height: 600px;
+	border-radius: 50px;
+	background-color: #3498db;
+	top: calc(50% - 300px);
+	left: calc(50% - 300px);
+	visibility: hidden;
+	z-index: 3;
+}
+#overlay{
+	position: fixed;
+	width: calc(100%);
+	height:calc(100%);
+	top: 0px;
+	left:0px;
+	opacity: 0.6;
+	background-color: #000;
+	visibility: hidden;
+	z-index: 2;
+}

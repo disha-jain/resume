@@ -1,0 +1,137 @@
+$('#petal').hover(function(){
+	resetPetals();
+});
+
+$('#petal1').hover(function(){
+	$('#petal1').css('background','#1abc9c');
+	$('#petal2').css('background','#1fb5a9');
+	$('#petal3').css('background','#24a7b6');
+	$('#petal4').css('background','#29a0c3');
+	$('#petal5').css('background','#2e98cf');
+	$('#petal6').css('background','#3498db');
+	$('#petal7').css('background','#2e98cf');
+	$('#petal8').css('background','#29a0c3');
+	$('#petal9').css('background','#24a7b6');
+	$('#petal10').css('background','#1fb5a9');
+});
+
+$('#petal2').hover(function(){
+	$('#petal1').css('background','#1fb5a9');
+	$('#petal2').css('background','#1abc9c');
+	$('#petal3').css('background','#1fb5a9');
+	$('#petal4').css('background','#24a7b6');
+	$('#petal5').css('background','#29a0c3');
+	$('#petal6').css('background','#2e98cf');
+	$('#petal7').css('background','#3498db');
+	$('#petal8').css('background','#2e98cf');
+	$('#petal9').css('background','#29a0c3');
+	$('#petal10').css('background','#24a7b6');
+});
+
+$('#petal3').hover(function(){
+	$('#petal1').css('background','#24a7b6');
+	$('#petal2').css('background','#1fb5a9');
+	$('#petal3').css('background','#1abc9c');
+	$('#petal4').css('background','#1fb5a9');
+	$('#petal5').css('background','#24a7b6');
+	$('#petal6').css('background','#29a0c3');
+	$('#petal7').css('background','#2e98cf');
+	$('#petal8').css('background','#3498db');
+	$('#petal9').css('background','#2e98cf');
+	$('#petal10').css('background','#29a0c3');
+});
+
+$('#petal4').hover(function(){
+	$('#petal1').css('background','#29a0c3');
+	$('#petal2').css('background','#24a7b6');
+	$('#petal3').css('background','#1fb5a9');
+	$('#petal4').css('background','#1abc9c');
+	$('#petal5').css('background','#1fb5a9');
+	$('#petal6').css('background','#24a7b6');
+	$('#petal7').css('background','#29a0c3');
+	$('#petal8').css('background','#2e98cf');
+	$('#petal9').css('background','#3498db');
+	$('#petal10').css('background','#2e98cf');
+});
+
+$('#petal5').hover(function(){
+	$('#petal1').css('background','#2e98cf');
+	$('#petal2').css('background','#29a0c3');
+	$('#petal3').css('background','#24a7b6');
+	$('#petal4').css('background','#1fb5a9');
+	$('#petal5').css('background','#1abc9c');
+	$('#petal6').css('background','#1fb5a9');
+	$('#petal7').css('background','#24a7b6');
+	$('#petal8').css('background','#29a0c3');
+	$('#petal9').css('background','#2e98cf');
+	$('#petal10').css('background','#3498db');
+});
+
+$('#petal6').hover(function(){
+	$('#petal1').css('background','#3498db');
+	$('#petal2').css('background','#2e98cf');
+	$('#petal3').css('background','#29a0c3');
+	$('#petal4').css('background','#24a7b6');
+	$('#petal5').css('background','#1fb5a9');
+	$('#petal6').css('background','#1abc9c');
+	$('#petal7').css('background','#1fb5a9');
+	$('#petal8').css('background','#24a7b6');
+	$('#petal9').css('background','#29a0c3');
+	$('#petal10').css('background','#2e98cf');
+});
+
+$('#petal7').hover(function(){
+	$('#petal1').css('background','#2e98cf');
+	$('#petal2').css('background','#3498db');
+	$('#petal3').css('background','#2e98cf');
+	$('#petal4').css('background','#29a0c3');
+	$('#petal5').css('background','#24a7b6');
+	$('#petal6').css('background','#1fb5a9');
+	$('#petal7').css('background','#1abc9c');
+	$('#petal8').css('background','#1fb5a9');
+	$('#petal9').css('background','#24a7b6');
+	$('#petal10').css('background','#29a0c3');
+});
+
+$('#petal8').hover(function(){
+	$('#petal1').css('background','#29a0c3');
+	$('#petal2').css('background','#2e98cf');
+	$('#petal3').css('background','#3498db');
+	$('#petal4').css('background','#2e98cf');
+	$('#petal5').css('background','#29a0c3');
+	$('#petal6').css('background','#24a7b6');
+	$('#petal7').css('background','#1fb5a9');
+	$('#petal8').css('background','#1abc9c');
+	$('#petal9').css('background','#1fb5a9');
+	$('#petal10').css('background','#24a7b6');
+});
+
+$('#petal9').hover(function(){
+	$('#petal1').css('background','#24a7b6');
+	$('#petal2').css('background','#29a0c3');
+	$('#petal3').css('background','#2e98cf');
+	$('#petal4').css('background','#3498db');
+	$('#petal5').css('background','#2e98cf');
+	$('#petal6').css('background','#29a0c3');
+	$('#petal7').css('background','#24a7b6');
+	$('#petal8').css('background','#1fb5a9');
+	$('#petal9').css('background','#1abc9c');
+	$('#petal10').css('background','#1fb5a9');
+});
+
+$('#petal10').hover(function(){
+	$('#petal1').css('background','#1fb5a9');
+	$('#petal2').css('background','#24a7b6');
+	$('#petal3').css('background','#29a0c3');
+	$('#petal4').css('background','#2e98cf');
+	$('#petal5').css('background','#3498db');
+	$('#petal6').css('background','#2e98cf');
+	$('#petal7').css('background','#29a0c3');
+	$('#petal8').css('background','#24a7b6');
+	$('#petal9').css('background','#1fb5a9');
+	$('#petal10').css('background','#1abc9c');
+});
+
+function resetPetals(){
+	$('.petals').css('background','#1abc9c');
+}

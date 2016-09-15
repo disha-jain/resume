@@ -1,0 +1,31 @@
+body{
+	background-color: #2980b9;
+	font-family: Quicksand,serif;
+	padding: 0px;
+	color: #FFF;
+}
+button{
+	border: 2px solid #000000;
+	border-radius: 5px 5px;
+	padding: 5px;
+	padding-bottom: 5px;
+	color: #ffffff;
+	background-color: #CC0000;
+	font-size: 18px;
+}
+input{
+	margin: 5px;
+	border: 2px solid #000000;
+	border-radius: 5px 5px;
+}
+option{
+	font-family: "Verdana";
+	font-size: 14px;	
+}
+select{
+	font-family: "Verdana";
+	font-size: 14px;
+	margin:5px;
+	border: 2px solid #000000;
+	border-radius: 5px 5px;
+}

@@ -1,0 +1,75 @@
+body{
+	background-color: #2980b9;
+	font-family: Quicksand,serif;
+	padding: 0px;
+	color: #FFF;
+}
+h1 {
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#navbar {
+	position: fixed;
+	top:10px;
+	left:50%;
+	margin-left:-254px;
+}
+
+#header {
+	position: relative;
+	top: -10px;
+	background-color: #3c4543;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+li {
+	list-style-type: none;
+}
+
+#left{
+	width: 45%;
+	float: left;
+}
+div{
+	background: #1abc9c;
+	padding: 3px;
+	border-radius: 5px 5px;	
+	width: 400px;
+	position: absolute;
+	margin-bottom: 5px;
+}
+.thoughts{
+	margin-left: calc(50% - 200px);
+	margin-top: 5px;
+}
+.classes{
+	margin-left: calc(50% - 200px);
+	margin-top: 105px;
+}
+p {
+	font-size: 1em;
+}
+
+#right{
+	width: 45%;
+	float: right;
+}
+#bottom_left{
+	border-bottom-left-radius: 15px;
+}
+
+#bottom_right{
+	border-bottom-right-radius: 15px;
+}
+
+#footer{
+	clear: both;
+	position: relative;
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+	background-color: #3c4543;
