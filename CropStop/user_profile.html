@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html style="height:100%">
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="cropstop_stylesheet.css">
+	    <title>Crop Stop</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	</head>
+	<body >
+		<div id="overlay"></div>
+		<div id="display">
+			<div style="height:40px;"></div>
+			<button class="settingsButton" id="about" onclick="window.location='about_us.html'">About Us </button>
+			<button class="settingsButton" id="search">Search</button>
+			<button class="settingsButton" id="help" >Help </button>
+		</div>
+		<img src="menu.svg" style="position: absolute; left: 12px; width:50px;"id="menu">
+		<img src="account_circle.svg" style="position: absolute; right: 25px; width:50px;"onclick="window.location='market_profile.html'">
+		<h1 style="width:90vw;position:relative;top:60px;text-align:center;">Profile</h1>
+
+		<form id="profile_form" >
+			<h3 style="width:90vw;position:relative;top:50px;text-align:left;font-size:20px;">Username</h3>
+			<input class="profile_textfield" type="text" name="username" ><br>
+			<h3 style="width:90vw;position:relative;top:50px;text-align:left;font-size:20px;">Preferred Market</h3>
+			<input class="profile_textfield" type="text" name="username" ><br>
+			<input class="button" type="submit" name="save" value="Save" style="position: relative;top:50px;width:40vw;left:25vw;"><br>
+		</form>
+		<button class="button" style="position: relative;top:80px;width:50vw;left:20vw;"> Review a Market</button>
+		<button class="button" style="position: relative;top:110px;width:60vw;left:15vw;"> My Market Reviews</button>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="cropstop.js"></script>
+
+	</body>
+</html>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="cropstop.js"></script>
+	</body>
+</html>

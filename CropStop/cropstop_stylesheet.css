@@ -1,0 +1,147 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+	position: absolute;
+}
+body{
+	width:inherit;
+	height:96%;
+	padding:5px;
+}
+#bg_image{
+	height:inherit;
+	width:100vw;
+	position: absolute;
+}
+#login_form{
+	position: fixed;
+	top:46%;
+	left:10%;
+}
+.textfield{
+	background-color:transparent;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 0px solid black;
+	width:110%;
+	height:20px;
+	font-size: 20px;
+	color:#FFF;
+}
+.profile_textfield{
+	left:45vw;
+	position: relative;
+	background-color:transparent;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 3px solid black;
+	width:50vw;
+	height:20px;
+	font-size: 20px;
+	color:#FFF;
+}
+#app_name{
+	margin-top: 16vh;
+	width: 95vw;
+	font-size: 38px;
+	z-index: 100;
+	position: absolute;
+	text-align: center;
+	color:#FFF;
+	font-style: oblique;
+	font-weight: bolder;
+}
+.button{
+	background-color: #d35400;
+	border:5px solid #d35400;
+	border-radius: 20px;
+	color:#FFF;
+	height:40px;
+	font-size: 20px;
+}
+::-webkit-input-placeholder {
+   color: #FFF;
+   opacity: .54;
+   font-style:italic;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #FFF;
+   opacity: .5;
+   font-style:italic;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #FFF;
+   opacity: .5;
+   font-style:italic;
+}
+:-ms-input-placeholder {  
+   color: #FFF;
+   opacity: .5;
+   font-style:italic;
+}
+#markets_div{
+	border: 3px solid #000;
+	overflow-y:auto;
+	position: relative;
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    width: 90vw;
+    height:40vh;
+    font-size: 22px;
+
+}
+#sort_button{
+	position: absolute;
+	right: 0;
+	width: 30vw;
+	margin-right: 10px;
+}
+#display{
+	position: absolute;
+	top: 0px;
+	left:-50vw;
+	width: 50vw;
+	height: 100vh;
+	background-color: #FFF;
+	z-index: 3;
+	transition-duration: 0.6s;
+}
+#sort_display{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 50vw;
+	height: 50vh;
+	background-color: #FFF;
+	z-index: 3;
+	visibility: hidden;
+	opacity: 0;
+	border-radius: 15px 0px 0px 0px;
+	transition-duration: 0.6s;
+}
+#overlay{
+	background-color:#000;
+	opacity: .4;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0px;
+	left:0px;
+	opacity: 0;
+	transition-duration: 0.6s;
+	visibility: hidden;
+	z-index: 2;
+}
+.settingsButton{
+    font-family: 'Roboto Condensed', sans-serif;
+	width:100%;
+	background-color: #FFF;
+	border: none;
+	height:50px;
+	font-size: 30px;
+}
+

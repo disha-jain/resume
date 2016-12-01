@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html style="height:100%">
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="cropstop_stylesheet.css">
+	    <title>Crop Stop</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	</head>
+	<body >
+		<div id="overlay"></div>
+		<div id="display">
+			<div style="height:40px"></div>
+			<button class="settingsButton" id="profile" onclick="window.location='user_profile.html'">Profile </button>
+			<button class="settingsButton" id="search">Search</button>
+			<button class="settingsButton" id="about" onclick="window.location='about_us.html'">About Us </button>
+			<button class="settingsButton" id="help" >Help </button>
+		</div>
+		<img src="menu.svg" style="position: absolute; left: 12px; width:50px;"id="menu">
+		<img src="account_circle.svg" style="position: absolute; right: 25px; width:50px;"onclick="window.location='market_profile.html'">
+		<img src="map.png" style="width:90vw">
+		<div id="markets_div">
+			<div style="padding:10px; position:relative;">
+				<button id="sort_button" class="button" style="z-index:2;">Sort</button>
+				<div onclick="window.location='market_profile.html'">Charlottesville City Market </div><br>
+				<div onclick="window.location='market_profile.html'">Farmers’ Market at 1st St </div><br>
+				<div onclick="window.location='market_profile.html'">Lake Anne Farmers' Market </div><br>
+				<div onclick="window.location='market_profile.html'">Richmond Farmers' Market</div></div>
+		</div>
+		<div id="sort_display">
+			<div style="height:20px"></div>
+			<div style="width=100%;text-align:center;font-size:45px;"> Sort By:</div>
+			<button class="settingsButton" id="distance" >Distance </button>
+			<button class="settingsButton" id="price">Price Rating</button>
+			<button class="settingsButton" id="quality" >Quality Rating </button>
+			<button class="settingsButton" id="sort" > <em><b>Sort</b></em> </button>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="cropstop.js"></script>
+	</body>
+</html>

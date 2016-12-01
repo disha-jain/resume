@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html style="height:100%">
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="cropstop_stylesheet.css">
+	    <title>Crop Stop</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	</head>
+	<body >
+		<div id="overlay"></div>
+		<div id="display">
+			<div style="height:40px;"></div>
+			<button class="settingsButton" id="profile" onclick="window.location='user_profile.html'">Profile </button>
+			<button class="settingsButton" id="search">Search</button>
+			<button class="settingsButton" id="help" >Help </button>
+		</div>
+		<div>
+			<img src="menu.svg" style="position: absolute; left: 12px; width:50px;"id="menu">
+			<img src="account_circle.svg" style="position: absolute; right: 25px; width:50px;"onclick="window.location='market_profile.html'">
+		</div>
+		<h1 style="width:90vw;position:relative;top:60px;text-align:center;">About Us</h1>
+		<p style="width:90vw;position:relative;top:50px;text-align:center;font-size:20px;">
+			We are UVA Engineering students addressing the issue of food deserts in urban areas. With this app, we hope that users will be more informed about fresh foods available at farmers’ markets.
+		</p>
+		<h2 style="width:90vw;position:relative;top:60px;text-align:center;">
+			Griffin Ott <br><br>Rob Donnan <br><br>Yasmin Khodaei <br><br>Disha Jain <br><br>Shirley Wang
+		</h2>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="cropstop.js"></script>
+	</body>
+</html>
