@@ -41,7 +41,20 @@ body{
 	width:50vw;
 	height:20px;
 	font-size: 20px;
-	color:#FFF;
+	color:#000;
+}
+.help_textfield{
+	left:5vw;
+	position: relative;
+	background-color:transparent;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 3px solid black;
+	width:90%;
+	height:20px;
+	font-size: 20px;
+	color:#000;
 }
 #app_name{
 	margin-top: 16vh;
@@ -92,6 +105,7 @@ body{
     width: 90vw;
     height:40vh;
     font-size: 22px;
+    background-color:#e6e6e6;border-radius:15px;
 
 }
 #sort_button{
@@ -123,6 +137,44 @@ body{
 	border-radius: 15px 0px 0px 0px;
 	transition-duration: 0.6s;
 }
+#help_display{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 35vh;
+	background-color: #FFF;
+	z-index: 3;
+	visibility: hidden;
+	opacity: 0;
+	transition-duration: 0.6s;
+}
+#search_display{
+	position: absolute;
+	top: 10vh;
+	left: 5vw;
+	width: 90vw;
+	height: 80vh;
+	background-color: #FFF;
+	z-index: 3;
+	visibility: hidden;
+	opacity: 0;
+	border-radius: 15px;
+	transition-duration: 0.6s;
+}
+#review_display{
+	position: absolute;
+	top: 10vh;
+	left: 5vw;
+	width: 90vw;
+	height: 80vh;
+	background-color: #FFF;
+	z-index: 3;
+	visibility: hidden;
+	opacity: 0;
+	border-radius: 15px;
+	transition-duration: 0.6s;
+}
 #overlay{
 	background-color:#000;
 	opacity: .4;
@@ -143,5 +195,12 @@ body{
 	border: none;
 	height:50px;
 	font-size: 30px;
+}
+.div{
+	position: relative;
+	float: left;
+	background-color: #e6e6e6;
+	border-radius:15px;
+	border: 3px solid black;
 }
 
