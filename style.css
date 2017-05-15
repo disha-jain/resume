@@ -1224,8 +1224,8 @@ a.dropdown-toggle:after{
 .grid-box-large strong{text-align: left;}
 
 .icon-grid{
-    width: 50px;
-    height: 50px;
+    width: 120px;
+    height: 120px;
     margin: 0;
     background: url(images/icons/grid-menu-icons.png) 0 0 no-repeat;
 }
