@@ -52,7 +52,7 @@ CSS STRUCTURE:
 /* Fonts */
 /*-----------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
 
 /*-----------------------------------*/
 /* Global Reset */
@@ -290,6 +290,10 @@ p{
 .btn-turquoise span, .btn-turquoise input{background-color: #1d5f60;}
 .btn-black span, .btn-black input{background-color: #333;}
 .btn-brown span, .btn-brown input{background-color: #a48b60;}
+.btn-dusty span, .btn-dusty{background: #96858f;}
+.btn-lavendar span, .btn-lavendar{background: #6d7993;}
+.btn-overcast span, .btn-overcast{background: #9099a2;}
+.btn-paper span, .btn-paper{background: #d5d5d5;}
 
 /*-----------------------------------*/
 /* Custom checkboxes, radios */
@@ -417,6 +421,11 @@ header{padding: 100px 0;}
 .boxed-turquoise, a.boxed-turquoise{background: #3bbec0;}
 .boxed-black, a.boxed-black{background: #333;}
 .boxed-brown, a.boxed-brown{background: #a48b60;}
+.boxed-dusty, a.boxed-dusty{background: #96858f;}
+.boxed-lavendar, a.boxed-lavendar{background: #6d7993;}
+.boxed-overcast, a.boxed-overcast{background: #9099a2;}
+.boxed-paper, a.boxed-paper{background: #d5d5d5;}
+.boxed-ocean, a.boxed-ocean{background: #88BBD6;}
 
 /*-----------------------------------*/
 /* Table Pricing */
@@ -902,6 +911,11 @@ input[type="password"]:focus{
 /*-----------------------------------*/
 
 /* Level 0 */
+/*.dropdown{
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+/*    width: 90%;
+}*/
 
 .dropdown > li {
     float:left;
@@ -1782,3 +1796,38 @@ input.weather-search-submit{
 }
 .checkBoxes{float: right; width: 45%; padding-top: 8px;}
 .checkBoxes .custom-checkbox label, .checkBoxes .custom-radio label {padding-left: 27px;}
+
+
+/********** **********
+*  FIXED BACKGROUND
+*********** *********/
+.background-fixed {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;                
+}
+.background-fixed::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#join-background::before {
+    background-image: url(images/city_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#join-background {
+    min-height: inherit;
+    height: 50%;
+}
+.main {
+    margin-top: 100px; /* Add a top margin to avoid content overlay */
+}
