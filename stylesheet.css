@@ -3,6 +3,9 @@ h1{
 }
 h2{
 	font-family: 'Roboto Condensed', sans-serif;
+	font-style: oblique;
+	text-transform: uppercase;
+	text-align: center;
 }
 p{
 	font-family: 'Raleway', sans-serif;	
@@ -55,4 +58,22 @@ body{
 }
 .navbar-collapse{
 	border-top:0px;
+}
+.header{
+	font-family: Roboto Condensed, sans-serif; 
+	color:#333;
+}
+.para{
+	font-family: Raleway, sans-serif; font-size: 150%; text-align:left; line-height:150%; text-indent: 5%; color: #4d4d4d;
+}
+li{
+	font-size: 110%;
+	line-height: 1.6;
+}
+h3{
+	line-height: .8;
+	font-style: normal;
+}
+.header{
+	font-family: Roboto Condensed, sans-serif; font-size: 200%;color:#333
 }
