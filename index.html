@@ -1,106 +1,362 @@
-<!doctype html>
-<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]><html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]><html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"> <!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta name="author" content="Disha Jain">
-<meta name="keywords" content="">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Disha Jain | Home</title>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Parisienne|Raleway&display=swap" rel="stylesheet">
+        <!-- Stylesheets -->
+        <link href="css/bootstrap.css" media="screen" rel="stylesheet">
+        <link href="style2.css" media="screen" rel="stylesheet">
+        <link href="timeline.css" media="screen" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-<!-- main JS libs -->
-<script src="js/libs/modernizr.min.js"></script>
-<script src="js/libs/jquery-1.10.0.js"></script>
-<script src="js/libs/jquery-ui.min.js"></script>
-<script src="js/libs/bootstrap.min.js"></script>
-
-<!-- Style CSS -->
-<link href="css/bootstrap.css" media="screen" rel="stylesheet">
-<link href="style.css" media="screen" rel="stylesheet">
-
-<!-- scripts -->
-<script src="js/general.js"></script>
-
-<!-- Include all needed stylesheets and scripts here -->
-
-<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Condensed" rel="stylesheet">
-
-</head>
-
-	<div id="join-background" class="page-background background-fixed">
-		<div class="container">
-
-			<!-- Website Menu -->
-			<nav id = "topmenu" class="navbar navbar-inverse navbar-fixed-top">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>                        
-						</button>
-						<a class="navbar-brand" href="#">DISHA JAIN</a>
-					</div>
-					<div class="collapse navbar-collapse" id="myNavbar">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="#" class = "nav_a"><span>Home</span></a></li>
-							<li><a href="about.html" class = "nav_a"><span>About</span></a></li>
-							<li><a href="projects.html" class = "nav_a"><span>Projects</span></a></li>
-							<li><a href="activities.html" class = "nav_a"><span>Activities</span></a></li>
-							<li><a href="contact.html" class = "nav_a"><span>Contact</span></a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-			<!--/ Website Menu -->
-
-			<div id="content" class="main">
-			<div class="row"style="height:40em">
-				<div class = "col-sm-6" >
-								<!-- Avatar Placeholder -->
-					<div class="widget-container widget-avatar boxed boxed-paper" >
-						<div class="inner">
-							<h5 style="font-family: Roboto Condensed, sans-serif; font-size: 250%; color: #333">Disha Jain</h5>
-							<span class="subtitle"style="font-family: Raleway, sans-serif; font-size: 150%; color: #4d4d4d">Software Engineer</span>
-							<div class="avatar" style="width:74%; height: 74%; border: 5px solid #96858f;"><img src="images/headshot_small.jpg" alt="" style ="width:100%; height: auto"/></div>
-							<a href="about.html" class="btn btn-dusty btn-follow">
-                				<span style="font-family: Roboto Condensed, sans-serif; font-size: 150%">About</span>
-            				</a>
-						</div>
-					</div>
-					<!--/ Avatar Placeholder -->
-				</div>
-
-				<div class="col-sm-6">
-					<div class="grid-menu clearfix" >
-						<div class="grid-box grid-box-large" style="height:52%">
-							<a href="projects.html" class="boxed boxed-lavendar" hidefocus="true" style="outline: none; height:100%">
-								<strong><i class="icon-grid icon-grid-3" style="background: url('images/icons/ic_folder.svg') 0 0 no-repeat"></i></strong>
-								<span style="font-family: Roboto Condensed, sans-serif; font-size: 110%">Projects</span>
-							</a>
-						</div>
-						<div class="grid-box" style="height:52%">
-							<a href="activities.html" class="boxed boxed-overcast" hidefocus="true" style="outline: none;height:100%">
-								<strong><i class="icon-grid" style="background: url('images/icons/ic_activity.svg') 0 0 no-repeat"></i></strong>
-								<span style="font-family: Roboto Condensed, sans-serif; font-size: 110%">Activities</span>
-							</a>
-						</div>
-						<div class="grid-box" style="height:50%">
-							<a href="contact.html" class="boxed boxed-dusty" hidefocus="true" style="outline: none; height:100%; background-color:#88BBD6">
-								<strong><i class="icon-grid icon-grid-2" style="background: url('images/icons/ic_forum.svg') 0 0 no-repeat"></i></strong>
-								<span style="font-family: Roboto Condensed, sans-serif; font-size: 110%">Contact</span>
-							</a>
-						</div>
-					</div>						  
-				</div>			
-			</div>
-		</div>
-	</div>
-		<!--/ container -->
-
-	</div>
-</body>
+    </head>
+    <body>
+		<!-- Website Menu -->
+		<nav id = "topmenu" class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#">DISHA JAIN</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#about" class = "nav_a"><span>About</span></a></li>
+                        <li><a href="#experience" class = "nav_a"><span>Experience</span></a></li>
+                        <!-- <li><a href="#skills" class = "nav_a"><span>Skills</span></a></li>
+                        <li><a href="#projects" class = "nav_a"><span>Projects</span></a></li> -->
+                        <!-- <li><a href="#contact" class = "nav_a"><span>Contact</span></a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--/ Website Menu -->
+        <div class="pane panel1">
+            <h1 class="header cursive"style=""> 
+                <i class="fas fa-ellipsis-h"></i>
+                Hi, I'm Disha Jain
+                <i class="fas fa-ellipsis-h"></i>
+            </h1>
+        <div class="mainpic"></div>
+        </div>
+        <div class="pane" id="about">
+            <h1>About</h1>
+            <!-- <p>Technology for social good - how can we change the world?</p> -->
+            <div class="shape-wrapper">
+                <div class="hex-bullet">
+                    <div class="hex-wrap"><div class="hexagon"></div></div>
+                    <div class="hex-text"><h3>Accessible</h3></div>
+                    <p class="about-p">How can I develop technology that is accessible?</p>
+                </div>
+                <div class="hex-bullet">
+                    <div class="hex-wrap"><div class="hexagon"></div></div>
+                    <div class="hex-text"><h3>Creative</h3></div>
+                    <p class="about-p">How can I develop solutions that are creative and unique?</p>
+                </div>
+                <div class="hex-bullet">
+                    <div class="hex-wrap"><div class="hexagon"></div></div>
+                    <div class="hex-text"><h3>Scalable</h3></div>
+                    <p class="about-p">How can I develop technology that scales?</p>
+                </div>
+                <div class="hex-bullet">
+                    <div class="hex-wrap"><div class="hexagon"></div></div>
+                    <div class="hex-text"><h3>Innovative</h3></div>
+                    <p class="about-p">How can I develop solutions that are fresh and innovative?</p>
+                </div>
+            </div>
+            <div class="about-wrapper">
+                <div class="about-image-wrapper">
+                    <div class="about-image"></div>
+                    <div class="about-description">
+                        I'm a 4th-year student at The University of Virginia School of Engineering and Applied Sciences pursuing a Bachelors of Science in Computer Science, with a minor in Social Entrepreneurship.
+                        <h2 class="cursive">I believe in</h2>
+                        <h4 style="color:#f2f2f2">Coding for social good!</h3>
+                    </div>
+                </div>
+                <div class="experience-wrapper">
+                        <div class="exp-bullet">
+                            <h2>Coding Languages</h2>
+                        </div>
+                        <div class="exp-bullet">
+                            <div class="exp-bar">
+                                <div class="exp-level"style="width:90%">
+                                    <div class="exp-label">
+                                        <p class="exp-p">Java</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exp-bullet">
+                            <div class="exp-bar">
+                                <div class="exp-level"style="width:90%">
+                                    <div class="exp-label">
+                                        <p class="exp-p">C++</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exp-bullet">
+                            <div class="exp-bar">
+                                <div class="exp-level"style="width:85%">
+                                    <div class="exp-label">
+                                        <p class="exp-p">TypeScript</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exp-bullet">
+                            <div class="exp-bar">
+                                <div class="exp-level">
+                                    <div class="exp-label">
+                                        <p class="exp-p">Python</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exp-bullet">
+                            <div class="exp-bar">
+                                <div class="exp-level" style="width:70%">
+                                    <div class="exp-label">
+                                        <p class="exp-p">PHP</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exp-bullet">
+                            <h2>Foreign Languages</h2>
+                        </div>
+                        <div class="exp-bullet">
+                            <div class="exp-bar">
+                                <div class="exp-level" style="width:95%">
+                                    <div class="exp-label">
+                                        <p class="exp-p">Hindi</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exp-bullet">
+                            <div class="exp-bar">
+                                <div class="exp-level">
+                                    <div class="exp-label">
+                                        <p class="exp-p">German</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exp-bullet">
+                            <h2>Design Skills</h2>
+                        </div>
+                        <div class="exp-bullet">
+                            <div class="exp-bar">
+                                <div class="exp-level"style="width:90%">
+                                    <div class="exp-label">
+                                        <p class="exp-p">Illustrator</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exp-bullet">
+                            <div class="exp-bar">
+                                <div class="exp-level"style="width:85%">
+                                    <div class="exp-label">
+                                        <p class="exp-p">Photoshop</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exp-bullet">
+                            <div class="exp-bar">
+                                <div class="exp-level"style="width:90%">
+                                    <div class="exp-label">
+                                        <p class="exp-p">Lightroom</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exp-bullet">
+                            <div class="exp-bar">
+                                <div class="exp-level"style="width:85%">
+                                    <div class="exp-label">
+                                        <p class="exp-p">InDesign</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="pane" id="experience">
+            <div class="experience-header"><h1>Experience</h1></div>
+            <div class="timeline">
+                <div class="resume-wrapper">
+                    <a href="images/disha_jain-resume.pdf" class="btn resume" target="_blank" >PDF Resume</a>
+                </div>
+                <div class="container">
+                    <div id="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="21px" height="20px" viewBox="0 0 21 20" enable-background="new 0 0 21 20" xml:space="preserve">
+                                    <g>
+                                        <path fill="#FFFFFF" d="M17.92,3.065l-1.669-2.302c-0.336-0.464-0.87-0.75-1.479-0.755C14.732,0.008,7.653,0,7.653,0v5.6
+                                            c0,0.096-0.047,0.185-0.127,0.237c-0.081,0.052-0.181,0.06-0.268,0.02l-1.413-0.64C5.773,5.183,5.69,5.183,5.617,5.215l-1.489,0.65
+                                            c-0.087,0.038-0.19,0.029-0.271-0.023c-0.079-0.052-0.13-0.141-0.13-0.235V0H2.191C1.655,0,1.233,0.434,1.233,0.97
+                                            c0,0,0.025,15.952,0.031,15.993c0.084,0.509,0.379,0.962,0.811,1.242l2.334,1.528C4.671,19.905,4.974,20,5.286,20h10.307
+                                            c1.452,0,2.634-1.189,2.634-2.64V4.007C18.227,3.666,18.12,3.339,17.92,3.065z M16.42,17.36c0,0.464-0.361,0.833-0.827,0.833H5.341
+                                            l-1.675-1.089h10.341c0.537,0,0.953-0.44,0.953-0.979V2.039l1.459,2.027V17.36L16.42,17.36z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="timeline-content right">
+                                <h2>Google
+                                    <p>New York, NY - Software Engineering Intern </p>
+                                </h2>
+                                <p>
+                                    <ul>
+                                        <li>Building a user-facing web application to output the results of an ML backend in human readable form </li>
+                                        <li>Designing and developing a Stubby RPC service to handle conversion of database protocol buffers to API protocol buffers </li>
+                                        <li>Refactoring existing code to reduce network calls with better use of observables and remove flaky tests</li>
+                                            
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="21px" height="20px" viewBox="0 0 21 20" enable-background="new 0 0 21 20" xml:space="preserve">
+                                    <path fill="#FFFFFF" d="M19.998,6.766l-5.759-0.544c-0.362-0.032-0.676-0.264-0.822-0.61l-2.064-4.999
+                                        c-0.329-0.825-1.5-0.825-1.83,0L7.476,5.611c-0.132,0.346-0.462,0.578-0.824,0.61L0.894,6.766C0.035,6.848-0.312,7.921,0.333,8.499
+                                        l4.338,3.811c0.279,0.246,0.395,0.609,0.314,0.975l-1.304,5.345c-0.199,0.842,0.708,1.534,1.468,1.089l4.801-2.822
+                                        c0.313-0.181,0.695-0.181,1.006,0l4.803,2.822c0.759,0.445,1.666-0.23,1.468-1.089l-1.288-5.345
+                                        c-0.081-0.365,0.035-0.729,0.313-0.975l4.34-3.811C21.219,7.921,20.855,6.848,19.998,6.766z"/>
+                                </svg>
+                            </div>
+                            <div class="timeline-content">
+                                <h2>Google
+                                    <p>San Francisco, CA - Engineering Practicum Intern </p>
+                                </h2>
+                                <p>
+                                        Worked on a scalable build analysis framework, developing features and testing framework in production
+                                        (Java, Protocol Buffers, Asynchronous Java, Stubby RPC)
+                                        <ul>
+                                        <li>Developed bisection tool to identify specific sources of regression using configurable build metrics and thresholds </li>
+                                        <li>Enabled support for additional build parameters, expanding enrollment to other projects across Google </li>
+                                        <li>Developed a more intelligent project enrollment system, allowing for user-defined configuration over hard-coding </li>
+                                    </ul>
+                                                                        </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="21px" height="20px" viewBox="0 0 21 20" enable-background="new 0 0 21 20" xml:space="preserve">
+                                    <g>
+                                        <path fill="#FFFFFF" d="M17.92,3.065l-1.669-2.302c-0.336-0.464-0.87-0.75-1.479-0.755C14.732,0.008,7.653,0,7.653,0v5.6
+                                            c0,0.096-0.047,0.185-0.127,0.237c-0.081,0.052-0.181,0.06-0.268,0.02l-1.413-0.64C5.773,5.183,5.69,5.183,5.617,5.215l-1.489,0.65
+                                            c-0.087,0.038-0.19,0.029-0.271-0.023c-0.079-0.052-0.13-0.141-0.13-0.235V0H2.191C1.655,0,1.233,0.434,1.233,0.97
+                                            c0,0,0.025,15.952,0.031,15.993c0.084,0.509,0.379,0.962,0.811,1.242l2.334,1.528C4.671,19.905,4.974,20,5.286,20h10.307
+                                            c1.452,0,2.634-1.189,2.634-2.64V4.007C18.227,3.666,18.12,3.339,17.92,3.065z M16.42,17.36c0,0.464-0.361,0.833-0.827,0.833H5.341
+                                            l-1.675-1.089h10.341c0.537,0,0.953-0.44,0.953-0.979V2.039l1.459,2.027V17.36L16.42,17.36z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="timeline-content right">
+                                <h2>Innovative Defense Technologies
+                                    <p>Arlington, VA - Software Engineering Intern </p>
+                                </h2>
+                                <p>
+                                    <ul>
+                                        <li>Developed a web application to analyze test results of a software, decreasing user effort and test time by 70%</li>
+                                        <li>Implemented full-stack technology (Javascript, Typescript, jQuery, Wildfly10, Java) to provide continuous integration of code coverage analysis to the user</li>
+                                        <li>Developed a plugin that uses Java Jooq to access a database and Backbone.js to process and display data</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="21px" height="20px" viewBox="0 0 21 20" enable-background="new 0 0 21 20" xml:space="preserve">
+                                <path fill="#FFFFFF" d="M19.998,6.766l-5.759-0.544c-0.362-0.032-0.676-0.264-0.822-0.61l-2.064-4.999
+                                    c-0.329-0.825-1.5-0.825-1.83,0L7.476,5.611c-0.132,0.346-0.462,0.578-0.824,0.61L0.894,6.766C0.035,6.848-0.312,7.921,0.333,8.499
+                                    l4.338,3.811c0.279,0.246,0.395,0.609,0.314,0.975l-1.304,5.345c-0.199,0.842,0.708,1.534,1.468,1.089l4.801-2.822
+                                    c0.313-0.181,0.695-0.181,1.006,0l4.803,2.822c0.759,0.445,1.666-0.23,1.468-1.089l-1.288-5.345
+                                    c-0.081-0.365,0.035-0.729,0.313-0.975l4.34-3.811C21.219,7.921,20.855,6.848,19.998,6.766z"/>
+                                </svg>
+                            </div>
+                            <div class="timeline-content">
+                                <h2>Curie Learning LLC
+                                    <p>Herndon, VA - Curriculum Developer and Part-Time Teacher</p>
+                                </h2>
+                                <p>
+                                    Developed Java curriculum for first-time programmers studying at Curie Learning                                </p>
+                                <a href="#" class="btn">Curriculum Download</a>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="21px" height="20px" viewBox="0 0 21 20" enable-background="new 0 0 21 20" xml:space="preserve">
+                                    <g>
+                                        <path fill="#FFFFFF" d="M17.92,3.065l-1.669-2.302c-0.336-0.464-0.87-0.75-1.479-0.755C14.732,0.008,7.653,0,7.653,0v5.6
+                                            c0,0.096-0.047,0.185-0.127,0.237c-0.081,0.052-0.181,0.06-0.268,0.02l-1.413-0.64C5.773,5.183,5.69,5.183,5.617,5.215l-1.489,0.65
+                                            c-0.087,0.038-0.19,0.029-0.271-0.023c-0.079-0.052-0.13-0.141-0.13-0.235V0H2.191C1.655,0,1.233,0.434,1.233,0.97
+                                            c0,0,0.025,15.952,0.031,15.993c0.084,0.509,0.379,0.962,0.811,1.242l2.334,1.528C4.671,19.905,4.974,20,5.286,20h10.307
+                                            c1.452,0,2.634-1.189,2.634-2.64V4.007C18.227,3.666,18.12,3.339,17.92,3.065z M16.42,17.36c0,0.464-0.361,0.833-0.827,0.833H5.341
+                                            l-1.675-1.089h10.341c0.537,0,0.953-0.44,0.953-0.979V2.039l1.459,2.027V17.36L16.42,17.36z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="timeline-content right">
+                                <h2>US Army Corps of Engineers Geospatial Research Lab
+                                    <p>Alexandria, VA - Student Intern</p>
+                                </h2>
+                                <p>
+                                    Developed a program that implements fuzzy searching algorithms in Java to clean and standardize datasets                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="pane" id="skills">
+            <div class="left inner"></div>
+        </div>
+        <div class="pane" id="projects">
+            <h1>Projects</h1>
+        </div> -->
+        <!-- <div class="pane panel1" id="contact">
+            <h1>Contact</h1>
+            <h2>Let's get in touch!</h2>
+            <div class="contact-wrapper">
+                    <div class="grid-menu clearfix" >
+                            <div class="grid-box" style="height:52%">
+                                <a href="https://www.linkedin.com/in/disha-jain-2020/" target="_blank" class="boxed boxed-ocean" hidefocus="true" style="outline: none;height:100%">
+                                    <strong><i class="icon-grid" style="background: url('images/icons/linkedin.svg') 0 0 no-repeat"></i></strong>
+                                    <span style="font-family: Roboto Condensed, sans-serif; font-size: 110%">LinkedIn</span>
+                                </a>
+                            </div>
+                            <div class="grid-box" style="height:50%">
+                                <a href="https://github.com/dishajain731" target="_blank"class="boxed boxed-dusty" hidefocus="true" style="outline: none; height:100%">
+                                    <strong><i class="icon-grid icon-grid-2" style="background: url('images/icons/github.svg') 0 0 no-repeat"></i></strong>
+                                    <span style="font-family: Roboto Condensed, sans-serif; font-size: 110%">GitHub</span>
+                                </a>
+                            </div>
+                            <div class="grid-box grid-box-large" style="height:52%">
+                                <a href="" class="boxed boxed-overcast" hidefocus="true" style="outline: none;">
+                                    <strong><i class="icon-grid icon-grid-3" style="background: url('images/icons/ic_mail.svg') 0 0 no-repeat; width: 130px"></i></strong>
+                                    <span style="font-family: Roboto Condensed, sans-serif; font-size: 110%">Email: dj9am@virginia.edu</span>
+                                </a>
+                        </div>
+                                </div>
+    
+            </div>
+        </div>
+         -->
+    </body>
 </html>
